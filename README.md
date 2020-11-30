@@ -30,7 +30,7 @@ Typography:
 ### Features
 
 ### Technologies Used
-*HTML5
+* HTML5
 
 The project uses HTML5 as the main language of the website.
 
@@ -38,9 +38,9 @@ The project uses HTML5 as the main language of the website.
 
 The project uses Bootstrap elements to help with form and design.
 
-*Javascript
+* Javascript
 
-*GitHub
+* GitHub
 
 The project uses GitHub to store its code.
 
@@ -48,19 +48,35 @@ The project uses GitHub to store its code.
 
 The project uses VS Code as the IDE
 
-*Git
+* Git
 
 Used within Gitpod as the version control system.
 
-*Google Developer Tools
+* Google Developer Tools
 Used within Google Chrome to inspect pages to help solve any bugs and view responsive design features.
 
-*Balsamiq
+* Balsamiq
 
 The project uses Balsamiq to create wireframes.
 
 
 ### Testing
+
+#### Feature Testing
+
+| Page       | Action Taken  | Expected Result  | Pass/Fail | 
+| -----------|:-------------:| ----------------:| ---------:|
+| index.html | Clicked on random cocktail button |   To call from API and display a random cocktail with name, recipe and image     |    Passed    |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+#### Bug Testing
+
+| Bugs Found | Action to fix | Link to fix commit| 
+| -----------|:-------------:| -----------------:| 
+|            |                 |                   | 
+|      |   |    |
+| zebra stripes | are neat      |    $1 |
 
 ### Deployment
 
