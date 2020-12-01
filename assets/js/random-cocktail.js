@@ -1,0 +1,1 @@
+const randomButton = document.getElementById("random-btn");
