@@ -82,5 +82,8 @@ The project uses Balsamiq to create wireframes.
 
 ### Credits
 
+Although I didn't end up using the code, so it is not referenced within my random-cocktail.js, this link led me to a different solution.
+https://www.codegrepper.com/code-examples/javascript/how+to+display+image+in+html+from+json+object 
+
 
 

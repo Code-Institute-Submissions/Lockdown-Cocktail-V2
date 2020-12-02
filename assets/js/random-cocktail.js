@@ -20,18 +20,16 @@ async function randomCocktail() {
     console.log(img);
     console.log(typeof(data));
     console.log(typeof(img));
-    document.getElementById("cocktail-card").innerHTML = drinkName;
-    document.getElementById("data").innerHTML = data;
+    /*document.getElementById("cocktail-card").innerHTML = drinkName;
+    document.getElementById("data").innerHTML = data;*/
     document.getElementById("image").innerHTML = `
     <div class="card" style="width:fluid">
- 
-  <div class="card-body text-center">
+    <div class="card-body text-center">
     <h5 class="card-title">${drinkName}</h5>
     <p class="card-text">${data}</p>
     <img class="random-cocktail-image img-fluid" src="${img}">
-    
-  </div>
-</div>`; //credit: https://www.codegrepper.com/code-examples/javascript/how+to+display+image+in+html+from+json+object
+    </div>
+    </div>`; //credit: https://www.codegrepper.com/code-examples/javascript/how+to+display+image+in+html+from+json+object
 }
 
 randomCocktail() 
