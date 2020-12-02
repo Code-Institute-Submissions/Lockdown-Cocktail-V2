@@ -1,12 +1,20 @@
-/* Set variables*/
+// Set variables*/
 
 let randomButton = document.getElementById("random-btn");
+let displayRandomCocktail = document.getElementById("image");
 
-/* Random Cocktail Button Click Event*/
 
-randomButton.addEventListener('click', randomCocktail()) /*target.addEventListener(event(click,load etc.), function, useCapture)*/
 
-/* Function to generate random cocktail*/ 
+// Random Cocktail Button Click Event*/
+
+randomButton.addEventListener('click', randomCocktail); /*target.addEventListener(event(click,load etc.), function, useCapture)*/
+
+//Random Cocktail Toggle Hide/Show Card
+
+
+
+
+//Function to generate random cocktail
 
 async function randomCocktail() {
     const response = await fetch("https://www.thecocktaildb.com/api/json/v1/1/random.php/preview");
@@ -22,8 +30,8 @@ async function randomCocktail() {
     console.log(typeof(img));
     /*document.getElementById("cocktail-card").innerHTML = drinkName;
     document.getElementById("data").innerHTML = data;*/
-    document.getElementById("image").innerHTML = `
-    <div class="card" style="width:fluid">
+    displayRandomCocktail.innerHTML = `
+    <div id="random-cocktail-card" class="card" style="width:fluid">
     <div class="card-body text-center">
     <h5 class="card-title">${drinkName}</h5>
     <p class="card-text">${data}</p>
