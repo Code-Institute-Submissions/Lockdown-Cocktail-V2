@@ -11,8 +11,11 @@ const userSearch = document.getElementById("cocktail-form-searchbar");
 function submitted(event) {
     event.preventDefault();
     const response = (`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${userSearch.value}`);
-    console.log(response);
+    console.log(response); //this works yey!
+    let jsonResponse = response.responseType = 'json';
+    //var jsonResponse = JSON.parse(response); // this bit doesn't boo!
     
+    console.log(jsonResponse);    
 }
 
 form.addEventListener("submit", submitted);
