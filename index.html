@@ -43,17 +43,12 @@
                     <div class="row text-center">
                         <div class="col">
                             <h2 class="random-cocktail-container__title">Lockdown Cocktail</h2>
-                            <p class="random-cocktail-container__text">Stuck in lockdown? Not able to get to the shops? 
-                                Bored of the same old drinks? 
-                                Never fear Lockdown Cocktail is here! 
-                                Inspo from your cupboards to shake up a new cocktail in moments. 
-                            </p>
                         </div>
                     </div>
                     <!--Random Cocktail Button-->
                     <div class="row random-btn-wrapper text-center">
                         <div class="col">
-                            <button id="random-btn" class="random-button-wrapper_button" type="submit">**Click for your next random cocktail**</button>
+                            <button onclick="randomCocktail()" id="random-btn" class="random-button-wrapper_button" type="submit">**Click for your next random cocktail**</button>
                         </div>
                     </div>
                     <!--Display Random Cocktail-->
@@ -65,11 +60,11 @@
                <!--User Search Bar-->
                <div class="container">
                    <!--Input search bar https://pagedart.com/blog/how-to-add-a-search-bar-in-html/-->
-                   <div class="row">
+                   <div class="row text-center">
                        <div class="col">
                            <form id="cocktail-form" class="cocktail-form" role="search" action="">
                                <h2 class="cocktail-form-heading">Search for your favourite cocktail!</h2>
-                                <input type="search" id="query" class="cocktail-form-input" placeholder="Mojito" aria-label="Search for a cocktail name">
+                                <input type="search" id="cocktail-form-searchbar" class="cocktail-form-searchbar" placeholder="Mojito" aria-label="Search for a cocktail name">
                                 <button class="cocktail-form-button">Search</button>
                             </form>
                            
@@ -136,6 +131,7 @@
             <!-- Copyright -->
         </footer>
         <script src="assets/js/random-cocktail.js"></script>
+        <script src="assets/js/search.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

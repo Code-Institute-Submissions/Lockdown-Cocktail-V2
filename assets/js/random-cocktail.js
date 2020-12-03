@@ -7,11 +7,7 @@ let displayRandomCocktail = document.getElementById("image");
 
 // Random Cocktail Button Click Event*/
 
-randomButton.addEventListener('click', randomCocktail); /*target.addEventListener(event(click,load etc.), function, useCapture)*/
-
-//Random Cocktail Toggle Hide/Show Card
-
-
+//randomButton.addEventListener('click', randomCocktail);--> /*target.addEventListener(event(click,load etc.), function, useCapture)*/
 
 
 //Function to generate random cocktail
@@ -40,12 +36,12 @@ async function randomCocktail() {
     </div>`; //credit: https://www.codegrepper.com/code-examples/javascript/how+to+display+image+in+html+from+json+object
 }
 
-randomCocktail() 
-    .then(response => {
+//how to add this into code in a nice way to catch errors?
+    /*.then(response => {
         console.log("WOOP!");
     })
     .catch(error => {
 
         console.log("Boo error");
         console.error(error);
-    });
+    });*/
