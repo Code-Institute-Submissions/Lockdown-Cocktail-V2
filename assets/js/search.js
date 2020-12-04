@@ -4,43 +4,56 @@
 //event listener
 const form = document.getElementById("cocktail-form");
 const userSearch = document.getElementById("cocktail-form-searchbar");
-
-userSearch.addEventListener("keyup", e => { 
+const displayCocktail = document.getElementById("search-cocktail-display");
+/*userSearch.addEventListener("keyup", e => { 
     const searchString = e.target.value; 
   });
-console.log()
+console.log()*/
 
-//Cocktaildb API data call
-/*function submitted(event) {
-    event.preventDefault();
-    var response = (`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${userSearch.value}`);
-    console.log(response); //this works yey!
-    
-    var jsonResponse = JSON.parse(response); // this bit doesn't boo!
-    
-    console.log(jsonResponse);    
-}*/ 
+//Not working yet
+function clearSearchBar() {
+    userSearch.innerHTML = "";
+}
+
+clearSearchBar();
+
+//Function to display cocktail search data instead of within below?
 
 
-//I updated the submitted function to the following:
-function submitted(event) {
+//I updated the submitted function to the following - help from CI tutor:
+function fetchCocktaildbData(event) {
     event.preventDefault();
     let x = userSearch.value;
     const url = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${x}`;
     fetch(url)
         .then(response => {
-        return response.json();
+        return response.json(); //return response as json object
     })
     .then(fetchedData => {
         apiData = fetchedData;
+        let drinkName = apiData.drinks[0].strDrink;
+        let receipe = apiData.drinks[0].strInstructions;
+        let img = apiData.drinks[0].strDrinkThumb;
+        console.log(drinkName);
+        console.log(receipe);
+        console.log(img);
+        displayCocktail.innerHTML =
+    `
+    <div id="random-cocktail-card" class="card" style="width:fluid">
+    <div class="card-body text-center">
+    <h5 class="card-title">${drinkName}</h5>
+    <p class="card-text">${receipe}</p>
+    <img class="random-cocktail-image img-fluid" src="${img}">
+    </div>
+    </div>`; 
+        
+         // variable apiData = returned json data
+         // Unpack data into variables for specific number in the array
     })
     .catch(error => {
         alert("Failed to get api data.");
         console.log(error);
     });
-    // console.log(response); //this works yey!
-    // let jsonResponse = response.responseType = 'json';
-    //var jsonResponse = JSON.parse(response); // this bit doesn't boo!
     
     setTimeout(() => {
         console.log(apiData);
@@ -48,7 +61,7 @@ function submitted(event) {
     // console.log(jsonResponse);    
 }
 
-form.addEventListener("submit", submitted);
+form.addEventListener("submit", fetchCocktaildbData);
 
 
 
