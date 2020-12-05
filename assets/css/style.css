@@ -8,22 +8,20 @@
 /*---------Random Cocktail Container---------*/
 
 .random-cocktail-container {
-    background-color: pink;
+    background-color: #aeecef;
     color: gray;
     
 }
 
 .random-cocktail-container__title {
     font-family: 'Elsie Swash Caps', cursive;
-    color: ;
     letter-spacing: 0.5rem;
-    margin-top: 15%;
-
+    margin-top: 10%;
 }
 
 .random-cocktail-container_info {
     font-family: 'Antic Didone', serif;
-    margin: 10% 0%;
+    margin: 10% 0% 0% 0%;
 }
 
 .random-cocktail-card {
@@ -31,10 +29,10 @@
 }
 
 .random-button-wrapper_button {
-    color: black;
     font-family: 'Antic Didone', serif;
-    background-color: lightskyblue;
-    margin: 5%;
+    font-size: 1.75em;
+    background-color: #80DED9;
+    margin: 8% 0%;
     padding: 10px;
 }
 
@@ -43,6 +41,7 @@
 
 .search-bar {
     background-color: #fafafa;
+    margin: 40% 0%;
 }
 
 .cocktail-form-heading {
