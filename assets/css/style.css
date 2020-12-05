@@ -5,12 +5,13 @@
     padding: 0;
     border: 0;
   }
+
 /*---------Random Cocktail Container---------*/
 
 .random-cocktail-container {
     background-color: #aeecef;
     color: gray;
-    margin-top: 7%;;
+    padding: 20px;
     
 }
 
@@ -47,7 +48,7 @@
 
 .cocktail-form-searchbar {
     margin: 10% 0%;
-    width: 300px;
+    width: 200px;
     height: 35px;
     
 }
@@ -55,6 +56,15 @@
     font-family: 'Antic Didone', serif;
 }
 
+.user-cocktail-container {
+    background-color: pink;
+}
 
+/*---------Navbar---------*/
+
+.navbar {
+    background-color: #fafafa;
+    padding: 25px 15px;
+}
 
 
