@@ -34,18 +34,14 @@ function fetchCocktaildbData(event) {
         let drinkName = apiData.drinks[0].strDrink;
         let receipe = apiData.drinks[0].strInstructions;
         let img = apiData.drinks[0].strDrinkThumb;
-        console.log(drinkName);
-        console.log(receipe);
-        console.log(img);
-        displayCocktail.innerHTML =
-    `
-    <div id="random-cocktail-card" class="card" style="width:fluid">
-    <div class="card-body text-center">
-    <h5 class="card-title">${drinkName}</h5>
-    <p class="card-text">${receipe}</p>
-    <img class="random-cocktail-image img-fluid" src="${img}">
-    </div>
-    </div>`; 
+        displayCocktail.innerHTML = `
+        <div id="search-cocktail-card" class="card" style="width:fluid">
+        <div class="card-body text-center">
+        <h5 class="card-title">${drinkName}</h5>
+        <p class="card-text">${receipe}</p>
+        <img class="random-cocktail-image img-fluid" src="${img}">
+        </div>
+        </div>`; 
         
          // variable apiData = returned json data
          // Unpack data into variables for specific number in the array
