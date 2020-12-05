@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cormorant+SC:wght@300&family=Elsie+Swash+Caps:wght@900&family=Petit+Formal+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+/*---------Random Cocktail Container---------*/
+
+.random-cocktail-container {
+    background-color: pink;
+    color: gray;
+    
+}
+
+.random-cocktail-container__title {
+    font-family: 'Elsie Swash Caps', cursive;
+    color: ;
+    letter-spacing: 0.1rem;
+    margin-top: 5%;
+
+}
+
+.random-cocktail-card {
+    background-color: white;
+}
+
+.random-button-wrapper_button {
+    color: black;
+    font-family: 'Cormorant SC', serif;
+}
+.random-btn-wrapper {
+    
+}
+
+/*---------User Cocktail Container---------*/
+
+.cocktail-form-heading {
+    font-family: 'Cormorant SC', serif;
+}
+
+
+
