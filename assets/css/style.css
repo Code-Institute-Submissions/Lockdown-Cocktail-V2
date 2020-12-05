@@ -21,23 +21,30 @@
 
 }
 
+.random-cocktail-container_info {
+    font-family: 'Antic Didone', serif;
+}
+
 .random-cocktail-card {
     background-color: white;
 }
 
 .random-button-wrapper_button {
     color: black;
-    font-family: 'Cormorant SC', serif;
-}
-.random-btn-wrapper {
-    
+    font-family: 'Antic Didone', serif;
 }
 
-/*---------User Cocktail Container---------*/
+
+/*---------User Cocktail Search Container---------*/
+
+.search-bar {
+    background-color: #fafafa;
+}
 
 .cocktail-form-heading {
-    font-family: 'Cormorant SC', serif;
+    font-family: 'Antic Didone', serif;
 }
+
 
 
 

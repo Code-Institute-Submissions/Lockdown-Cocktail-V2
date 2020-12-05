@@ -27,7 +27,7 @@ async function randomCocktail() {
     /*document.getElementById("cocktail-card").innerHTML = drinkName;
     document.getElementById("data").innerHTML = data;*/
     displayRandomCocktail.innerHTML = `
-    <div id="random-cocktail-card" class="card" style="width:fluid">
+    <div id="random-cocktail-card" class="random-cocktail-card" style="width:fluid">
     <div class="card-body text-center">
     <h5 class="card-title">${drinkName}</h5>
     <p class="card-text">${data}</p>
