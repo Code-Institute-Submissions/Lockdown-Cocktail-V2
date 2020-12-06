@@ -30,11 +30,15 @@
     background-color: white;
 }
 
+.random-btn-wrapper {
+    padding-top: 5vw;
+}
+
 .random-button-wrapper_button {
     font-family: 'Antic Didone', serif;
     font-size: 1.75em;
     background-color: #80DED9;
-    margin: 8% 0%;
+    margin: 6% 0%;
     padding: 10px;
 }
 
@@ -42,7 +46,6 @@
 /*---------User Cocktail Search Container---------*/
 
 .search-bar {
-    background-color;
     margin: 20% 0%;
 }
 
@@ -58,13 +61,42 @@
 
 .user-cocktail-container {
     background-color: pink;
+    padding: 30px;
+    margin-top: 40%;
+
 }
 
+.cocktail-form-button {
+    font-family: 'Antic Didone', serif;
+}
 /*---------Navbar---------*/
 
 .navbar {
     background-color: #fafafa;
-    padding: 25px 15px;
+    padding: 20px;
+   
 }
 
+.nav-link {
+    font-family: 'Antic Didone', serif;
+}
 
+/*---------Footer Container---------*/
+
+.footer-container__title-right {
+    font-family: 'Antic Didone', serif;
+}
+
+.footer-container__title-left {
+    font-family: 'Antic Didone', serif;
+}
+
+.footer-copyright  {
+    font-family: 'Antic Didone', serif;
+    
+}
+
+.footer-copyright a {
+    font-family: 'Antic Didone', serif;
+    color: black;
+}
