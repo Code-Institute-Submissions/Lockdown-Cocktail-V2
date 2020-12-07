@@ -79,8 +79,13 @@
 
 .nav-link {
     font-family: 'Antic Didone', serif;
+    color: pink;
 }
 
+.nav-item {
+
+
+}
 /*--------Contact Form--------*/
 
 .contact-form {
@@ -113,14 +118,6 @@
 
 /*---------Footer Container---------*/
 
-.footer-container__title-right {
-    font-family: 'Antic Didone', serif;
-}
-
-.footer-container__title-left {
-    font-family: 'Antic Didone', serif;
-}
-
 .footer-copyright  {
     font-family: 'Antic Didone', serif;
     
@@ -130,3 +127,8 @@
     font-family: 'Antic Didone', serif;
     color: black;
 }
+
+.list-inline-item a i {
+    color: #80DED9;
+}
+

@@ -34,13 +34,12 @@ async function randomCocktail() {
     <img class="random-cocktail-image img-fluid" src="${img}">
     </div>
     </div>`; //credit: https://www.codegrepper.com/code-examples/javascript/how+to+display+image+in+html+from+json+object
+    
 }
 
 //how to add this into code in a nice way to catch errors?
-    /*.then(response => {
-        console.log("WOOP!");
-    })
-    .catch(error => {
+  
+    /*.catch(error => {
 
         console.log("Boo error");
         console.error(error);
