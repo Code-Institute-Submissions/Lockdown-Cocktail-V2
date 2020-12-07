@@ -81,6 +81,36 @@
     font-family: 'Antic Didone', serif;
 }
 
+/*--------Contact Form--------*/
+
+.contact-form {
+    margin: 0 auto;
+}
+
+.contact-us h3 {
+    font-family: "Raleway", sans-serif;
+    color: pink;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    padding: 45px 0px 0px 0px;
+    
+}
+
+.contact-us h6 {
+    font-family: "Raleway", sans-serif;
+    color: #fafafa;
+    letter-spacing: 0.3rem;
+    padding: 0px 0px 55px 0px;
+}
+
+.contact-button {
+    font-family: "Raleway", sans-serif;
+    color: #fafafa;
+    letter-spacing: 0.3rem;
+    background-color: pink !important;
+    border-color: #80DED9; important;
+}
+
 /*---------Footer Container---------*/
 
 .footer-container__title-right {
