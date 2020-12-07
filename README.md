@@ -30,8 +30,8 @@ As a user I want to:
 * be easily directed to any social media channels that can add additional viewing material to entice a user to connect with the Lockdown Cocktail community.
 * be able to instinctively navigate the website to find the information required efficiently.
 * enjoy the experience of entering a website that makes me feel good.
+* view a variety of cocktails to inspire making one at home.
 * be able to contact Lockdown Cocktail to request any cocktail receipes that may not be available within the search feature.
-
 
 
 #### Scope
@@ -43,17 +43,15 @@ After analysis of the user stories, I have decided that I cannot implement all u
 * Social Media links
 
 #### Structure
-I wanted the structure of the website to be a one page scroller as this is a modern choice and my target audience is fairly young. I think a navbar will lend a good UX to point the user
-towards the contact page but other than that all content will remain on one page. I imagined users accessing the site from their phones during lockdown and so a one page scroller may keep users
-on the site longer on mobile devices.
+I wanted the structure of the website to feature a one page scroller as this is a modern choice and would suit my target audience. I think a navbar will lend a good UX to point the user
+towards the contact page, but other than that, all content will remain on one page. The page is designed for mobile first as I imagine users would access the site from their phones during lockdown. Additionally, this structure for the project would keep users on the site for longer as they scroll through/between the two main features.
 
 #### Skeleton
 I designed wireframes for mobile, tablet and desktop using Balsamiq.
-
-All three pages of the website are viewable in PDF using the following link:
+They are viewable in PDF using the following link:
 
 #### Surface
-Colours
+##### Colours
 A light, pastel colour scheme has been chosen for the website. The colour choices are to entice the chosen user (females aged 18-40) to enjoy the site. The choices also reflect the bright colours of some cocktails.
 Pink
 White #fafafa
@@ -61,11 +59,32 @@ Light Grey
 #089299
 #69863178
 
-Typography:
+##### Typography
 
-I have used the Google Fonts: Elsie Swash Caps and Antic Didone.
+I have used two Google Fonts: Elsie Swash Caps and Antic Didone.
 
 ### Features
+
+#### All Website Pages:
+* A navbar features across all pages. It shows the Lockdown Cocktail brand logo on the left and on the right the 2 pages in order of user priority: home and contact. The navbar collapses into a hamburger button when viewed on smaller screen devices.
+* A footer that includes social media links to Facebook, YouTube and Instagram and a navbar to redirect users so they do not need to scroll to the top.
+
+#### Main Page:
+Features listed in order as you scroll down the page.
+##### Random Cocktail Generator Feature
+* Title 'Lockdown Cocktail' in stand out Google Font Elsie Swash Caps to create a visually appealing heading for the page and set the tone for the intended user.
+* Paragraph to entice users to click on the 'Cocktail Generator' button below.
+* Button labeled 'Cocktail Generator' links to random-cocktail.js to give it functionality. The button is styled in a complimentary colour to the section is it in for a pleasing UX. 
+The button features a mouseover 'gloved hand icon' when you hover of the it to indicate to users to click there. When clicked on the button border turns pink then the users see displayed 
+below a cocktail title, receipe and image.
+
+
+##### Search Cocktail Feature
+* Heading 'Search for your favourite cocktail' present to indicate to users the purpose of the searchbar below
+* Search bar with 'mojito' placeholder text to point users in the right direction in terms of what they can search for.
+Search bar also features a cross for users to delete what they have written to start a new search with ease.
+* Button labelled 'search'. The button features a mouseover 'gloved hand icon' when you hover of the it to indicate to users to click there. 
+The button 
 
 ### Technologies Used
 * HTML5
@@ -123,5 +142,6 @@ The project uses Balsamiq to create wireframes.
 Although I didn't end up using the code, so it is not referenced within my random-cocktail.js, this link led me to a different solution.
 https://www.codegrepper.com/code-examples/javascript/how+to+display+image+in+html+from+json+object 
 
+To Johann the CI tutor for helping me solve my javascript issue with the searchbar feature.
 
 
