@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cormorant+SC:wght@300&family=Elsie+Swash+Caps:wght@900&family=Petit+Formal+Script&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Antic Didone', serif;
+    color:  gray;
+}
 
 /*---------Random Cocktail Container---------*/
 
+#random-cocktail-container-section {
+    height: 100%;
+}
+
 .random-cocktail-container {
     background-color: #aeecef;
-    color: gray;
     padding: 20px;
     
 }
@@ -22,7 +26,7 @@
 }
 
 .random-cocktail-container_info {
-    font-family: 'Antic Didone', serif;
+    
     margin: 10%;
 }
 
@@ -35,7 +39,7 @@
 }
 
 .random-button-wrapper_button {
-    font-family: 'Antic Didone', serif;
+    
     font-size: 1.75em;
     background-color: #80DED9;
     margin: 6% 0%;
@@ -55,9 +59,6 @@
     height: 35px;
     
 }
-.cocktail-form-heading {
-    font-family: 'Antic Didone', serif;
-}
 
 .user-cocktail-container {
     background-color: pink;
@@ -66,9 +67,6 @@
 
 }
 
-.cocktail-form-button {
-    font-family: 'Antic Didone', serif;
-}
 /*---------Navbar---------*/
 
 .navbar {
@@ -90,42 +88,37 @@
 
 .contact-form {
     margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 
+
 }
 
 .contact-us h3 {
-    font-family: "Raleway", sans-serif;
     color: pink;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     padding: 45px 0px 0px 0px;
-    
 }
 
-.contact-us h6 {
-    font-family: "Raleway", sans-serif;
+.contact-us h6 { 
     color: #fafafa;
     letter-spacing: 0.3rem;
     padding: 0px 0px 55px 0px;
 }
 
 .contact-button {
-    font-family: "Raleway", sans-serif;
     color: #fafafa;
     letter-spacing: 0.3rem;
     background-color: pink !important;
-    border-color: #80DED9; important;
+    border-color: #80DED9 !important;
 }
 
 /*---------Footer Container---------*/
 
-.footer-copyright  {
-    font-family: 'Antic Didone', serif;
-    
-}
 
 .footer-copyright a {
-    font-family: 'Antic Didone', serif;
-    color: black;
+    color: gray;
+  
 }
 
 .list-inline-item a i {
