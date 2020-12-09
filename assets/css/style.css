@@ -34,10 +34,6 @@ html, body {
     background-color: white;
 }
 
-.random-btn-wrapper {
-    /*padding-top: 5vw;*/
-}
-
 .random-button-wrapper_button {
     
     font-size: 1.75em;
@@ -83,17 +79,11 @@ html, body {
     color: pink;
 }
 
-.nav-item {
-
-
-}
 /*--------Contact Form--------*/
 
 .contact-form {
     margin: 0 auto;
     padding: 20px;
-    margin-bottom: 
-
 }
 
 .contact-us h3 {

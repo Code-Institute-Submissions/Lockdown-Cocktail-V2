@@ -123,9 +123,9 @@ The project uses Balsamiq to create wireframes.
 
 | Page       | Action Taken  | Expected Result  | Pass/Fail | 
 | -----------|:-------------:| ----------------:| ---------:|
-| index.html | Clicked on random cocktail button |   To call from API and display a random cocktail with name, recipe and image     |    Passed    |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| index.html | Clicked on random cocktail button |   API call and display random cocktail with name, recipe and image     |    Passed    |
+| contact.html     | Add initial emailJS script tag to check connected to personal email    |   Receive blank email template | Passed
+|  |      |     |
 
 #### Bug Testing
 
