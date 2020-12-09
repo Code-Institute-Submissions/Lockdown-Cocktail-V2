@@ -35,12 +35,13 @@ As a user I want to:
 
 
 #### Scope
-After analysis of the user stories, I have decided that I cannot implement all user's needs at this time so have decided on the below features to be my initial minimum scope.
+After analysis of the user stories, I have decided that I cannot implement all user's needs at this time so I have decided on the below features to be my initial minimum scope.
 
 * Random Cocktail feature from API
 * Search Cocktail feature from API
 * Responsive design
 * Social Media links
+* Contact form 
 
 #### Structure
 I wanted the structure of the website to feature a one page scroller as this is a modern choice and would suit my target audience. I think a navbar will lend a good UX to point the user
@@ -78,13 +79,22 @@ Features listed in order as you scroll down the page.
 The button features a mouseover 'gloved hand icon' when you hover of the it to indicate to users to click there. When clicked on the button border turns pink then the users see displayed 
 below a cocktail title, receipe and image.
 
-
 ##### Search Cocktail Feature
 * Heading 'Search for your favourite cocktail' present to indicate to users the purpose of the searchbar below
 * Search bar with 'mojito' placeholder text to point users in the right direction in terms of what they can search for.
 Search bar also features a cross for users to delete what they have written to start a new search with ease.
 * Button labelled 'search'. The button features a mouseover 'gloved hand icon' when you hover of the it to indicate to users to click there. 
 The button 
+
+#### Contact Page:
+* A Bootstrap contact form with space for name, email and message; with a button to send featured at the bottom of the form.
+* This contact form is fully functional via the integration of the service EmeilJS.
+* The name and email fields are specified as required.
+* The colours have been amended to tie in with the colour scheme of the site.
+
+#### Features Left to Implement:
+* To include the ingredients list for each cocktail within the cards that pop up when a user either clicks the 'Cocktail Generator' or searches for a cocktail.
+* Another section on the main page including a set of static cards or perhaps a carousel of cards including cocktail names, images, recipes and ingredients for users to be inspired.
 
 ### Technologies Used
 * HTML5
@@ -96,6 +106,9 @@ The project uses HTML5 as the main language of the website.
 The project uses Bootstrap elements to help with form and design.
 
 * Javascript
+
+Used to implement the functionality of integrating the CocktailDB API into the main page.
+Used to implement the functionality of the contact form.
 
 * GitHub
 
@@ -116,6 +129,13 @@ Used within Google Chrome to inspect pages to help solve any bugs and view respo
 
 The project uses Balsamiq to create wireframes.
 
+* EmailJS
+
+Used to integrate the functionality of the contact form to connect to an appropriate email address.
+
+* CocktailDB API
+
+Used to collect the data for the cocktails that are shown in searchbar and 'Cocktail Generator'.
 
 ### Testing
 
@@ -142,6 +162,8 @@ The project uses Balsamiq to create wireframes.
 Although I didn't end up using the code, so it is not referenced within my random-cocktail.js, this link led me to a different solution.
 https://www.codegrepper.com/code-examples/javascript/how+to+display+image+in+html+from+json+object 
 
-To Johann the CI tutor for helping me solve my javascript issue with the searchbar feature.
+Credit to CI (Code Institute) lessons on EmailJS integration for the contact.js function.
+
+To Johann the CI tutor for helping me solve my javascript issue with the searchbar feature in search.js
 
 
