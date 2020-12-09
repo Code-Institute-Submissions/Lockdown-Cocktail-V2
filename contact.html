@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+    
     <title>Lockdown Cocktail V2</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<!--<script type="text/javascript">
+   (function(){
+      emailjs.init("user_8VtcJ1eliozhELeZSRtax");
+      emailjs.send("service_htxlx5m","template_hcxua4p");
+   })();
+</script>--> 
+
 </head>
 <body>
     <header>
@@ -47,16 +58,15 @@
                             <div class="contact-us text-center">
                                 <h3>Contact us</h3>
                             </div>
-                            <form class="form-style form-content-center" method="post" data-form-title="CONTACT US">
-                            <input type="hidden" data-form-email="true">
+                            <form onsubmit="return sendMail(this);" class="form-style form-content-center" method="post" data-form-title="CONTACT US">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+                                <input type="text" class="form-control" name="name" id="fullname" required="" placeholder="Name*" data-form-field="Name">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+                                <input type="email" class="form-control" id="emailaddress" name="emailaddress" required="" placeholder="Email*" data-form-field="Email">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                                <textarea class="form-control" id="message" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
                             </div>
                             <div>
                                 <button type="submit" class="btn btn-lg btn-danger text-uppercase contact-button">Send Message</button>

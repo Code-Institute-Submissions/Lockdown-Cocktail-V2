@@ -2,20 +2,20 @@
 
 html, body {
     height: 100%;
-    width: 100%;
     font-family: 'Antic Didone', serif;
     color:  gray;
 }
 
+
 /*---------Random Cocktail Container---------*/
 
-#random-cocktail-container-section {
-    height: 100%;
-}
+
 
 .random-cocktail-container {
+    
     background-color: #aeecef;
     padding: 20px;
+    
     
 }
 
@@ -35,26 +35,29 @@ html, body {
 }
 
 .random-btn-wrapper {
-    padding-top: 5vw;
+    /*padding-top: 5vw;*/
 }
 
 .random-button-wrapper_button {
     
     font-size: 1.75em;
     background-color: #80DED9;
-    margin: 6% 0%;
+    margin: 3% 0%;
     padding: 10px;
 }
 
 
 /*---------User Cocktail Search Container---------*/
 
+.cocktail-form-heading {
+    margin-top: 5%;
+}
 .search-bar {
-    margin: 20% 0%;
+    margin: 5% 0%;
 }
 
 .cocktail-form-searchbar {
-    margin: 10% 0%;
+    margin: 5% 0%;
     width: 200px;
     height: 35px;
     
@@ -63,7 +66,7 @@ html, body {
 .user-cocktail-container {
     background-color: pink;
     padding: 30px;
-    margin-top: 40%;
+    margin-top: 15%;
 
 }
 
