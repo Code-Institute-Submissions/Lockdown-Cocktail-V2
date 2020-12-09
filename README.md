@@ -135,6 +135,8 @@ Used to integrate the functionality of the contact form to connect to an appropr
 
 * CocktailDB API
 
+https://www.thecocktaildb.com/api.php
+
 Used to collect the data for the cocktails that are shown in searchbar and 'Cocktail Generator'.
 
 ### Testing

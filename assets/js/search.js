@@ -1,24 +1,20 @@
-//Create searchbar for cocktails from API
+//Create searchbar for user cocktail search from CocktailDB API
 //Code adapted from: https://pagedart.com/blog/how-to-add-a-search-bar-in-html/
 
 //event listener
 const form = document.getElementById("cocktail-form");
 const userSearch = document.getElementById("cocktail-form-searchbar");
 const displayCocktail = document.getElementById("search-cocktail-display");
-/*userSearch.addEventListener("keyup", e => { 
-    const searchString = e.target.value; 
-  });
-console.log()*/
 
-//Not working yet
-function clearSearchBar() {
-    userSearch.innerHTML = "";
-}
+//Function to allow for empty form. Credit to https://www.w3schools.com/js/js_validation.asp 
 
-clearSearchBar();
-
-//Function to display cocktail search data instead of within below?
-
+function validateForm() {
+    var y = userSearch.value;
+    if (y == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  }
 
 //I updated the submitted function to the following - help from CI tutor:
 function fetchCocktaildbData(event) {

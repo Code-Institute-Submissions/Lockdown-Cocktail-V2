@@ -1,5 +1,5 @@
 // function to connect onsubmit on contact.html form to email.js
-console.log("hello");
+// Code taken from CI lessons on EmailJS integration.
 function sendMail(contactForm) {
     emailjs.send("service_htxlx5m","template_hcxua4p", {
         "message": contactForm.message.value,

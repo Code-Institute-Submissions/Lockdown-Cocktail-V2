@@ -65,7 +65,7 @@
                    <!--Input search bar https://pagedart.com/blog/how-to-add-a-search-bar-in-html/-->
                    <div class="row text-center user-cocktail-search">
                        <div class="col">
-                           <form id="cocktail-form" class="cocktail-form" role="search" action="">
+                           <form name="myForm" id="cocktail-form" class="cocktail-form" role="search" onsubmit="return validateForm()">
                                <h2 class="cocktail-form-heading">Search for your favourite cocktail!</h2>
                                 <input type="search" id="cocktail-form-searchbar" class="cocktail-form-searchbar" placeholder="Mojito" aria-label="Search for a cocktail name">
                                 <button class="cocktail-form-button">Search</button>
