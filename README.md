@@ -8,7 +8,9 @@ at home. Since cocktails are generally more complicated to make, I thought it wo
 to give people the receipe, and a visual image of their cocktail, once they 
 have made it to compare.
 
-A link to the website can be found here[ADD LINK]
+A link to the website can be found here[ADD LINK] https://telesia.github.io/Lockdown-Cocktail-V2/
+* Please note that I have maintained the labelling 'V2' on the second version of my Lockdown Cocktails project for submission for my MS2. I started an original project but after some consideration to my methodology began again. I do not want to create
+any confusion within my github and current labelling systems so have kept them both, but didn't want to confuse matters when viewing the repository. 
 
 ### UX
 
@@ -141,6 +143,9 @@ Used to collect the data for the cocktails that are shown in searchbar and 'Cock
 
 ### Testing
 
+#### W3C Validator Testing
+I used the W3C validators for HTML and CSS to check my code. I used the BeautifyTools to check my Javascript http://beautifytools.com/javascript-validator.php On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I went along.
+
 #### Feature Testing
 
 | Page       | Action Taken  | Expected Result  | Pass/Fail | 
@@ -158,6 +163,33 @@ Used to collect the data for the cocktails that are shown in searchbar and 'Cock
 | zebra stripes | are neat      |    $1 |
 
 ### Deployment
+
+The repository for the project is held on GitHub and was created by Sarah Telesia. The deployment involved using the settings within the Lockdown Cocktail V2 repository to enable the website to be deployed as a GitHub page, which you can access at: https://telesia.github.io/Lockdown-Cocktail-V2/ 
+
+Steps on how to clone the Lockdown-Cocktail-V2 repository from GitHub
+
+I have learned and taken the information for the below clone steps from https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
+There are two options:
+
+Clone using GitHub Desktop
+
+Open GitHub website and navigate to Quartet-Militaire repository on Sarah Telesia's GitHub at https://github.com/Telesia/Lockdown-Cocktail-V2
+Above the list of files, click on Code button
+Scroll down to read 'Open with GitHub Desktop' and then click
+This will open GitHub Desktop (If this is your first time using GitHub Desktop follow the software download procedure)
+A pop up will ask you where you wish to clone the repository to on your local computer and then press clone
+You can now access the repository files in your chosen IDE
+Clone using Git
+
+Open GitHub website and navigate to Quartet-Militaire repository on Sarah Telesia's GitHub at https://github.com/Telesia/Lockdown-Cocktail-V2
+Above the list of files, click on Code button
+Click on the web URL viewable and copy
+Open the terminal
+Change the current working directory to the location where you want the cloned directory
+Type git clone, and then paste the URL you copied earlier
+Press Enter to create your local clone.6.
+You can now access the repository files in your chosen IDE
 
 ### Credits
 
