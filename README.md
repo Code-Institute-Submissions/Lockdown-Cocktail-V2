@@ -8,7 +8,7 @@ at home. Since cocktails are generally more complicated to make, I thought it wo
 to give people the receipe, and a visual image of their cocktail, once they 
 have made it, in order to compare.
 
-A link to the website can be found here https://telesia.github.io/Lockdown-Cocktail-V2/
+A link to the website can be found [here] (https://telesia.github.io/Lockdown-Cocktail-V2/)
 * Please note that I have maintained the labelling 'V2' on the second version of my Lockdown Cocktails project for submission for my MS2. I started an original project but after some consideration to my methodology began again. I do not want to create
 any confusion within my github and current labelling systems so have kept them both, but didn't want to confuse matters when viewing the repository. 
 
@@ -145,7 +145,7 @@ Used to collect the data for the cocktails that are shown in searchbar and 'Cock
 
 ### Testing
 
-Please refer to seperate document found here: (TESTING.md)
+Please refer to seperate document found [here] (TESTING.md)
 
 #### W3C Validator Testing
 I used the W3C validators for HTML and CSS to check my code. I used the BeautifyTools to check my Javascript http://beautifytools.com/javascript-validator.php On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I went along.
