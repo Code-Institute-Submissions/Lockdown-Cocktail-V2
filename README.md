@@ -6,9 +6,9 @@ November 2020. During this time, cocktail bars were closed and consumers were un
 to head out for cocktail drinks. The premise of the site is for consumers to create a cocktail
 at home. Since cocktails are generally more complicated to make, I thought it would be fun 
 to give people the receipe, and a visual image of their cocktail, once they 
-have made it to compare.
+have made it, in order to compare.
 
-A link to the website can be found here[ADD LINK] https://telesia.github.io/Lockdown-Cocktail-V2/
+A link to the website can be found here https://telesia.github.io/Lockdown-Cocktail-V2/
 * Please note that I have maintained the labelling 'V2' on the second version of my Lockdown Cocktails project for submission for my MS2. I started an original project but after some consideration to my methodology began again. I do not want to create
 any confusion within my github and current labelling systems so have kept them both, but didn't want to confuse matters when viewing the repository. 
 
@@ -74,14 +74,14 @@ I have used two Google Fonts: Elsie Swash Caps and Antic Didone.
 
 #### Main Page:
 Features listed in order as you scroll down the page.
-##### Random Cocktail Generator Feature
+#### Random Cocktail Generator Feature
 * Title 'Lockdown Cocktail' in stand out Google Font Elsie Swash Caps to create a visually appealing heading for the page and set the tone for the intended user.
 * Paragraph to entice users to click on the 'Cocktail Generator' button below.
 * Button labeled 'Cocktail Generator' links to random-cocktail.js to give it functionality. The button is styled in a complimentary colour to the section is it in for a pleasing UX. 
 The button features a mouseover 'gloved hand icon' when you hover of the it to indicate to users to click there. When clicked on the button border turns pink then the users see displayed 
 below a cocktail title, receipe and image.
 
-##### Search Cocktail Feature
+#### Search Cocktail Feature
 * Heading 'Search for your favourite cocktail' present to indicate to users the purpose of the searchbar below
 * Search bar with 'mojito' placeholder text to point users in the right direction in terms of what they can search for.
 Search bar also features a cross for users to delete what they have written to start a new search with ease.
