@@ -74,6 +74,7 @@ I have used two Google Fonts: Elsie Swash Caps and Antic Didone.
 
 #### Main Page:
 Features listed in order as you scroll down the page.
+
 #### Random Cocktail Generator Feature
 * Title 'Lockdown Cocktail' in stand out Google Font Elsie Swash Caps to create a visually appealing heading for the page and set the tone for the intended user.
 * Paragraph to entice users to click on the 'Cocktail Generator' button below.
@@ -97,6 +98,7 @@ The button
 #### Features Left to Implement:
 * To include the ingredients list for each cocktail within the cards that pop up when a user either clicks the 'Cocktail Generator' or searches for a cocktail.
 * Another section on the main page including a set of static cards or perhaps a carousel of cards including cocktail names, images, recipes and ingredients for users to be inspired.
+* To be able to have multiple cocktails displayed from search bar. For example, if they input rum, it would display a set of rum based cocktails available from the database.
 
 ### Technologies Used
 * HTML5
@@ -152,7 +154,31 @@ I used the W3C validators for HTML and CSS to check my code. I used the Beautify
 | -----------|:-------------:| ----------------:| ---------:|
 | index.html | Clicked on random cocktail button |   API call and display random cocktail with name, recipe and image     |    Passed    |
 | contact.html     | Add initial emailJS script tag to check connected to personal email    |   Receive blank email template | Passed
-|  |      |     |
+| index.html | Click on logo in top left corner  |   Keeps you on homepage  | Passed |
+| index.html (991px and under) | Click on hamburger button | Opens up the navbar items 'home' and 'contact' | Passed
+| index.html (991px and under) | Click on home text within hamburger button | Keeps you on homepage | Passed
+| index.html (991px and under) | Click on contact text within hamburger button | Takes you to contact page | Passed 
+| index.html (991px and under) | Click on hamburger button with navbar items open | Closes navbar | Passed
+| index.html (991px and above) | Click on 'Home' in navbar | Remain on homepage | Passed
+| index.html (991px and above) | Click on 'Contact' in navbar | Redirected to Contact page | Passed
+| index.html | Click on 'Cocktail Generator' button | A random cocktail from API will display below the button | Passed 
+| index.html | Click on 'Cocktail Generator' button again | A new random cocktai displays | Passed
+| index.html | Click on search input bar | Text able to be inputted and deleted, shown by flashing text bar and cross icon | Passed
+| index.html | Text inputted into search bar | See displayed text | Passed
+| index.html | Nonsense text put in search bar | Alert displayed on screen that data wasn't fetched | Passed
+| index.thml | Test cocktail names tried (cosmo, mai tai, mojito) | See a cocktail with that name displayed below the searchbar | Passed
+| index.html | Navbar in footer click on 'home' | Remain on home page | Passed
+| index.html | Navbar in footer click on 'contact' | Link to contact page works and redirected | Passed
+| index.html | Click on facebook icon | A new webpage tab opens to the Facebook homepage | Passed
+| index.html | Click on Youtube icon | A new webpage tab opens to the Youtube homepage | Passed
+| index.html | Click on Youtube icon | A new webpage tab opens to the instagram homepage | Passed
+| contact.html | Click on logo in top left corner  |   Keeps you on homepage  | Passed |
+| contact.html(991px and under) | Click on hamburger button | Opens up the navbar items 'home' and 'contact' | Passed
+| contact.html (991px and under) | Click on home text within hamburger button | Keeps you on homepage | Passed
+| contact.html (991px and under) | Click on contact text within hamburger button | Takes you to contact page | Passed 
+| contact.html (991px and under) | Click on hamburger button with navbar items open | Closes navbar | Passed
+| contact.html (991px and above) | Click on 'Home' in navbar | Redirected to home page | Passed
+| contact.html (991px and above) | Click on 'Contact' in navbar | Remain on contact page | Passed
 
 #### Bug Testing
 
