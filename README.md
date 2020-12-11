@@ -179,6 +179,12 @@ I used the W3C validators for HTML and CSS to check my code. I used the Beautify
 | contact.html (991px and under) | Click on hamburger button with navbar items open | Closes navbar | Passed
 | contact.html (991px and above) | Click on 'Home' in navbar | Redirected to home page | Passed
 | contact.html (991px and above) | Click on 'Contact' in navbar | Remain on contact page | Passed
+| contact.html | Able to click and enter text into 'Name' placeholder input field | Text inputted | Passed
+| contact.html | Able to click and enter text into 'Email' placeholder input field | Text inputted | Passed
+| contact.html | Able to click and enter text into 'Message' placeholder input field | Text inputted | Passed
+| contact.html | Hover mouse over 'Send Message' button | Mouseover gloved hand appears | Passed
+| contact.html | Click 'Send Message' button | Email to be sent to my personal email for project purposes with name, email and message | Passed
+
 
 #### Bug Testing
 
