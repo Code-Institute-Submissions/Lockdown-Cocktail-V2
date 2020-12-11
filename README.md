@@ -145,6 +145,8 @@ Used to collect the data for the cocktails that are shown in searchbar and 'Cock
 
 ### Testing
 
+Please refer to seperate document found here: (TESTING.md)
+
 #### W3C Validator Testing
 I used the W3C validators for HTML and CSS to check my code. I used the BeautifyTools to check my Javascript http://beautifytools.com/javascript-validator.php On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I went along.
 
@@ -183,7 +185,12 @@ I used the W3C validators for HTML and CSS to check my code. I used the Beautify
 | contact.html | Able to click and enter text into 'Email' placeholder input field | Text inputted | Passed
 | contact.html | Able to click and enter text into 'Message' placeholder input field | Text inputted | Passed
 | contact.html | Hover mouse over 'Send Message' button | Mouseover gloved hand appears | Passed
-| contact.html | Click 'Send Message' button | Email to be sent to my personal email for project purposes with name, email and message | Passed
+| contact.html | Click 'Send Message' button | Email to be sent to my personal email for project purposes with name, email and message | 
+| contact.html | Navbar in footer click on 'home' | Redirected to home page | Passed
+| contact.html | Navbar in footer click on 'contact' | Remain on contact page | Passed
+| contact.html | Click on facebook icon | A new webpage tab opens to the Facebook homepage | Passed
+| contact.html | Click on Youtube icon | A new webpage tab opens to the Youtube homepage | Passed
+| contact.html | Click on Youtube icon | A new webpage tab opens to the instagram homepage | Passed
 
 
 #### Bug Testing
@@ -192,7 +199,7 @@ I used the W3C validators for HTML and CSS to check my code. I used the Beautify
 | -----------|:-------------:| -----------------:| 
 |            |                 |                   | 
 |      |   |    |
-| zebra stripes | are neat      |    $1 |
+| |      |    |
 
 ### Deployment
 
