@@ -145,7 +145,7 @@ Used to collect the data for the cocktails that are shown in searchbar and 'Cock
 
 ### Testing
 
-Please refer to seperate document found [here] (TESTING.md)
+Please refer to seperate document found [here] (testing/TESTING.md)
 
 #### W3C Validator Testing
 I used the W3C validators for HTML and CSS to check my code. I used the BeautifyTools to check my Javascript http://beautifytools.com/javascript-validator.php On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I went along.
@@ -155,7 +155,7 @@ I used the W3C validators for HTML and CSS to check my code. I used the Beautify
 | Page       | Action Taken  | Expected Result  | Pass/Fail | 
 | -----------|:-------------:| ----------------:| ---------:|
 | index.html | Clicked on random cocktail button |   API call and display random cocktail with name, recipe and image     |    Passed    |
-| contact.html     | Add initial emailJS script tag to check connected to personal email    |   Receive blank email template | Passed
+| contact.html | Add initial emailJS script tag to check connected to personal email    |   Receive blank email template | Passed
 | index.html | Click on logo in top left corner  |   Keeps you on homepage  | Passed |
 | index.html (991px and under) | Click on hamburger button | Opens up the navbar items 'home' and 'contact' | Passed
 | index.html (991px and under) | Click on home text within hamburger button | Keeps you on homepage | Passed
