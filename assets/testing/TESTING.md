@@ -6,7 +6,8 @@ When I first viewed my Contact page using the Developer Tools in Chrome, I notic
 
 I used the Lighthouse tool to check over my website in the final tests. In my first check of the home page a notification came up that I had some issues with Best Practices on my social media <a> tags. Lighthouse informed me to add in rel="noopener" in order to prevent any malicious backlinks from the URLs. I then redid the Lighthouse check and received the below report which I am happy with.
 
-The report for the home page can be viewed ![below](assets/testing/testing_screenshots/Lighthouse_Analytics_Home.png)
+The report for the home page can be viewed 
+<img src="https://github.com/telesia/Lockdown-Cocktail-V2/blob/master/testing/testing_screenshots/Lighthouse_Analytics_Home.png" width="500">
 
 #### W3C Validator Testing
 I used the W3C validators for HTML and CSS to check my code. I used the BeautifyTools to check my Javascript: http://beautifytools.com/javascript-validator.php On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I developed.
