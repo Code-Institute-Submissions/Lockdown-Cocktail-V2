@@ -9,6 +9,8 @@ I used the Lighthouse tool to check over my website in the final tests. In my fi
 The report for the home page can be viewed 
 [here](assets/testing/testing_screenshots/lighthouse.png)
 
+![lighthouse] <img src="assets/testing/testing_screenshots/lighthouse.png" width="500"> 
+
 #### W3C Validator Testing
 I used the W3C validators for HTML and CSS to check my code. I used the BeautifyTools to check my Javascript: http://beautifytools.com/javascript-validator.php On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I developed.
 
