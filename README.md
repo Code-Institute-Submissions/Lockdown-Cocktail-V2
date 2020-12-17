@@ -8,7 +8,8 @@ at home. Since cocktails are generally more complicated to make, I thought it wo
 to give people the receipe, and a visual image of their cocktail, once they 
 have made it, in order to compare.
 
-A link to the website can be found [here] (https://telesia.github.io/Lockdown-Cocktail-V2/)
+A link to the website can be found [here](https://telesia.github.io/Lockdown-Cocktail-V2/)
+
 * Please note that I have maintained the labelling 'V2' on the second version of my Lockdown Cocktails project for submission for my MS2. I started an original project but after some consideration to my methodology began again. I do not want to create
 any confusion within my github and current labelling systems so have kept them both, but didn't want to confuse matters when viewing the repository. 
 
@@ -52,6 +53,8 @@ towards the contact page, but other than that, all content will remain on one pa
 #### Skeleton
 I designed wireframes for mobile, tablet and desktop using Balsamiq.
 They are viewable in PDF using the following link:
+
+[Wireframes for home page and contact page](Lockdown_Cocktail_Wireframes_v2.pdf) 
 
 #### Surface
 ##### Colours
