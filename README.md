@@ -54,16 +54,18 @@ towards the contact page, but other than that, all content will remain on one pa
 I designed wireframes for mobile, tablet and desktop using Balsamiq.
 They are viewable in PDF using the following link:
 
-[Wireframes for home page and contact page](Lockdown_Cocktail_Wireframes_v2.pdf) 
+[Wireframes for home page and contact page](assets/wireframes/Lockdown_Cocktail_Wireframes_v2.pdf) 
 
 #### Surface
 ##### Colours
 A light, pastel colour scheme has been chosen for the website. The colour choices are to entice the chosen user (females aged 18-40) to enjoy the site. The choices also reflect the bright colours of some cocktails.
-Pink
-White #fafafa
-Light Grey 
-#089299
-#69863178
+
+* Pink
+* White #fafafa
+* Grey 
+* White
+* #aeecef
+* #80DED9
 
 ##### Typography
 
@@ -144,14 +146,14 @@ Used to integrate the functionality of the contact form to connect to an appropr
 
 https://www.thecocktaildb.com/api.php
 
-Used to collect the data for the cocktails that are shown in searchbar and 'Cocktail Generator'.
+Used to collect the data for the cocktails that are shown in the searchbar and 'Cocktail Generator'.
 
 ### Testing
 
-Please refer to seperate document found [here] (testing/TESTING.md)
+Please refer to seperate document found [here](assets/testing/TESTING.md)
 
 #### W3C Validator Testing
-I used the W3C validators for HTML and CSS to check my code. I used the BeautifyTools to check my Javascript http://beautifytools.com/javascript-validator.php On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I went along.
+I used the W3C validators for HTML and CSS to check my code. I used the BeautifyTools to check my Javascript: http://beautifytools.com/javascript-validator.php On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I went along.
 
 #### Feature Testing
 
