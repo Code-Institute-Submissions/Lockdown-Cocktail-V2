@@ -14,6 +14,12 @@ The report for the home page can be viewed below and
 #### W3C Validator Testing
 I used the W3C validators for HTML and CSS to check my code. I used the BeautifyTools to check my Javascript: http://beautifytools.com/javascript-validator.php On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I developed.
 
+#### User Stories
+
+User Story 1: be able to search for the name of my favourite cocktail by name or ingredient, view and then easily recreate it.
+
+[userstory1](assets/testing/user_stories/userstory1.png) 
+
 #### Feature Testing
 
 | Page       | Action Taken  | Expected Result  | Pass/Fail | 

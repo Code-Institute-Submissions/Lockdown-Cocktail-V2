@@ -152,60 +152,6 @@ Used to collect the data for the cocktails that are shown in the searchbar and '
 
 Please refer to seperate document found [here](assets/testing/TESTING.md)
 
-#### W3C Validator Testing
-I used the W3C validators for HTML and CSS to check my code. I used the BeautifyTools to check my Javascript: http://beautifytools.com/javascript-validator.php On the final test there were no errors found. There were a few errors throughout my work on the project that I corrected as I went along.
-
-#### Feature Testing
-
-| Page       | Action Taken  | Expected Result  | Pass/Fail | 
-| -----------|:-------------:| ----------------:| ---------:|
-| index.html | Clicked on random cocktail button |   API call and display random cocktail with name, recipe and image     |    Passed    |
-| contact.html | Add initial emailJS script tag to check connected to personal email    |   Receive blank email template | Passed
-| index.html | Click on logo in top left corner  |   Keeps you on homepage  | Passed |
-| index.html (991px and under) | Click on hamburger button | Opens up the navbar items 'home' and 'contact' | Passed
-| index.html (991px and under) | Click on home text within hamburger button | Keeps you on homepage | Passed
-| index.html (991px and under) | Click on contact text within hamburger button | Takes you to contact page | Passed 
-| index.html (991px and under) | Click on hamburger button with navbar items open | Closes navbar | Passed
-| index.html (991px and above) | Click on 'Home' in navbar | Remain on homepage | Passed
-| index.html (991px and above) | Click on 'Contact' in navbar | Redirected to Contact page | Passed
-| index.html | Click on 'Cocktail Generator' button | A random cocktail from API will display below the button | Passed 
-| index.html | Click on 'Cocktail Generator' button again | A new random cocktai displays | Passed
-| index.html | Click on search input bar | Text able to be inputted and deleted, shown by flashing text bar and cross icon | Passed
-| index.html | Text inputted into search bar | See displayed text | Passed
-| index.html | Nonsense text put in search bar | Alert displayed on screen that data wasn't fetched | Passed
-| index.thml | Test cocktail names tried (cosmo, mai tai, mojito) | See a cocktail with that name displayed below the searchbar | Passed
-| index.html | Navbar in footer click on 'home' | Remain on home page | Passed
-| index.html | Navbar in footer click on 'contact' | Link to contact page works and redirected | Passed
-| index.html | Click on facebook icon | A new webpage tab opens to the Facebook homepage | Passed
-| index.html | Click on Youtube icon | A new webpage tab opens to the Youtube homepage | Passed
-| index.html | Click on Youtube icon | A new webpage tab opens to the instagram homepage | Passed
-| contact.html | Click on logo in top left corner  |   Keeps you on homepage  | Passed |
-| contact.html(991px and under) | Click on hamburger button | Opens up the navbar items 'home' and 'contact' | Passed
-| contact.html (991px and under) | Click on home text within hamburger button | Keeps you on homepage | Passed
-| contact.html (991px and under) | Click on contact text within hamburger button | Takes you to contact page | Passed 
-| contact.html (991px and under) | Click on hamburger button with navbar items open | Closes navbar | Passed
-| contact.html (991px and above) | Click on 'Home' in navbar | Redirected to home page | Passed
-| contact.html (991px and above) | Click on 'Contact' in navbar | Remain on contact page | Passed
-| contact.html | Able to click and enter text into 'Name' placeholder input field | Text inputted | Passed
-| contact.html | Able to click and enter text into 'Email' placeholder input field | Text inputted | Passed
-| contact.html | Able to click and enter text into 'Message' placeholder input field | Text inputted | Passed
-| contact.html | Hover mouse over 'Send Message' button | Mouseover gloved hand appears | Passed
-| contact.html | Click 'Send Message' button | Email to be sent to my personal email for project purposes with name, email and message | 
-| contact.html | Navbar in footer click on 'home' | Redirected to home page | Passed
-| contact.html | Navbar in footer click on 'contact' | Remain on contact page | Passed
-| contact.html | Click on facebook icon | A new webpage tab opens to the Facebook homepage | Passed
-| contact.html | Click on Youtube icon | A new webpage tab opens to the Youtube homepage | Passed
-| contact.html | Click on Youtube icon | A new webpage tab opens to the instagram homepage | Passed
-
-
-#### Bug Testing
-
-| Bugs Found | Action to fix | Link to fix commit| 
-| -----------|:-------------:| -----------------:| 
-|            |                 |                   | 
-|      |   |    |
-| |      |    |
-
 ### Deployment
 
 The repository for the project is held on GitHub and was created by Sarah Telesia. The deployment involved using the settings within the Lockdown Cocktail V2 repository to enable the website to be deployed as a GitHub page, which you can access at: https://telesia.github.io/Lockdown-Cocktail-V2/ 
