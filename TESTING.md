@@ -85,6 +85,6 @@ User Story 5: be able to contact Lockdown Cocktail to request any cocktail recei
 
 | Bugs Found | Action to fix | Link to fix commit| 
 | -----------|:-------------:| -----------------:| 
-|            |                 |                   | 
+|        Link back to home page not working on contact page footer    |     Add link to index.html in contact.html footer      |  https://github.com/Telesia/Lockdown-Cocktail-V2/commit/5670a4132a4ed47923a914997c513e96b3133d74                 | 
 |      |   |    |
 | |      |    |
