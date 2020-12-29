@@ -132,6 +132,7 @@ The project uses VS Code as the IDE
 Used within Gitpod as the version control system.
 
 * Google Developer Tools
+
 Used within Google Chrome to inspect pages to help solve any bugs and view responsive design features.
 
 * Balsamiq
@@ -150,7 +151,7 @@ Used to collect the data for the cocktails that are shown in the searchbar and '
 
 ### Testing
 
-Please refer to seperate document found [here](assets/testing/TESTING.md)
+Please refer to seperate document found [here](TESTING.md)
 
 ### Deployment
 
