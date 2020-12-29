@@ -3,12 +3,6 @@
 let randomButton = document.getElementById("random-btn");
 let displayRandomCocktail = document.getElementById("image");
 
-
-
-// Random Cocktail Button Click Event
-
-//randomButton.addEventListener('click', randomCocktail);--> /*target.addEventListener(event(click,load etc.), function, useCapture)
-
 //Function to generate random cocktail
 
 function randomCocktail() {

@@ -10,7 +10,6 @@ function sendMail(contactForm) {
         function(response) {
             alert("Thank you, your form has been submitted.")
             location.reload();
-            // Add in code to link to the div in contact.html id + innerhtml = ` h4 "Thank you! Your message has been succesfully sent"
         },
         function(error) {
             console.log("FAILED", error);
