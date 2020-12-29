@@ -18,7 +18,25 @@ I used the W3C validators for HTML and CSS to check my code. I used the Beautify
 
 User Story 1: be able to search for the name of my favourite cocktail by name or ingredient, view and then easily recreate it.
 
-[view here userstory1](assets/testing/user_stories/userstory1.png) 
+[User Story 1 View Here](assets/testing/user_stories/userstory1.png) 
+
+User Story 2: be inspired by a random cocktail choice and view (a fun feature to recreate the feel of asking the mixologist to choose a drink for you and make it).
+
+[User Story 2 View Here](assets/testing/user_stories/userstory2.png) 
+[User Story 2 Result View Here](assets/testing/user_stories/userstory2_result.png) 
+
+User Story 3: be easily directed to any social media channels that can add additional viewing material to entice a user to connect with the Lockdown Cocktail community.
+
+[User Story 3 View Here](assets/testing/user_stories/userstory3.png) 
+
+User Story 4: be able to instinctively navigate the website to find the information required efficiently.
+
+[User Story 4 Desktop View Here](assets/testing/user_stories/userstory4_desktop.png) 
+[User Story 3 Responsive View Here](assets/testing/user_stories/userstory4_responsive.png) 
+
+User Story 5: be able to contact Lockdown Cocktail to request any cocktail receipes that may not be available within the search feature.
+
+[User Story 5 View Here](assets/testing/user_stories/userstory5.png) 
 
 #### Feature Testing
 
