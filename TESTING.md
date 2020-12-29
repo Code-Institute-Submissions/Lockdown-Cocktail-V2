@@ -18,7 +18,7 @@ I used the W3C validators for HTML and CSS to check my code. I used the Beautify
 
 User Story 1: be able to search for the name of my favourite cocktail by name or ingredient, view and then easily recreate it.
 
-[userstory1](assets/testing/user_stories/userstory1.png) 
+[view here userstory1](assets/testing/user_stories/userstory1.png) 
 
 #### Feature Testing
 
